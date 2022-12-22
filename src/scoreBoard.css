@@ -1,0 +1,109 @@
+h1 {
+
+  /* background: orange; */
+  height: 140px;
+  margin: 0;
+  line-height: 140px;
+  font-size: 40px;
+  text-transform: uppercase;
+  /* color: white; */
+}
+.team-name {
+  margin: auto;
+  /* width: 600px; */
+  height: 60px;
+  background-color: coral;
+  margin-bottom: 4px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 40px;
+  color: #fff;
+}
+.team-name .left {
+  background-color: crimson;
+  width: 50%;
+}
+.team-name .left .create ,.team-name .right .create {
+  font-size: 20px;
+  cursor: pointer;
+}
+.team-name .right {
+  background-color:darkmagenta;
+  width: 50%;
+}
+.main {
+  background-color: black;
+  /* width: 600px; */
+  height: 200px;
+  display: flex;
+  margin: auto;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.main .left{
+  height: 180px;
+  width: 45%;
+}
+.main .left ,.main .right {
+  display: flex;
+  justify-content: space-evenly;
+}
+.main .left .half {
+  background-color: orange;
+}
+.main .right .half {
+  background-color: blueviolet;
+}
+
+.main .right {
+  height: 180px;
+  width: 45%;
+}
+.left .half,.right .half {
+  width: 45%;
+  height: 180px;
+  color: #fff;
+  font-size: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.action {
+  margin: 4px auto;
+  /* width: 600px; */
+  height: 100px;
+  background-color: chartreuse;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.action .left,.action .right{
+  display: flex;
+  justify-content: space-evenly; 
+  align-items: center;
+  width: 45%;
+  height: 100%;
+  color:hotpink;
+  font-size: 100px;
+}
+.action .left .plus,.action .left .minus ,.action .right .plus,.action .right .minus {
+  height: 100%;
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.action .reset {
+  cursor: pointer;
+  color: hotpink;
+  font-weight: 600;
+  font-size: 20px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.create-name-dialog {
+  display: flex;
+}
