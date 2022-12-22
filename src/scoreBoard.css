@@ -33,11 +33,7 @@ h1 {
 }
 .main {
   background-color: black;
-<<<<<<< HEAD
   /* width: 600px; */
-=======
-  width: 600px;
->>>>>>> 96bac7762b04309e4d424606fde5bd06741a87d2
   height: 200px;
   display: flex;
   margin: auto;
@@ -74,11 +70,7 @@ h1 {
 }
 .action {
   margin: 4px auto;
-<<<<<<< HEAD
   /* width: 600px; */
-=======
-  width: 600px;
->>>>>>> 96bac7762b04309e4d424606fde5bd06741a87d2
   height: 100px;
   background-color: chartreuse;
   display: flex;
